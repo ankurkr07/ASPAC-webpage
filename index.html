@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en"> 
+<head>
+   <meta charset="utf-8">
+	<title>Astronomy Club RGIPT</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">
+   <style>
+       .overlayevents {
+           position: fixed;
+           top: 0;
+           bottom: 0;
+           left: 0;
+           right: 0;
+           background: rgba(0, 0, 0, 0.7);
+           transition: all 500ms ease-in-out;
+           visibility: hidden;
+           opacity: 0;
+           z-index:10000;
+       }
+   .overlayevents:target {
+       visibility: visible;
+       opacity: 1;
+   }
+   
+   .popupevents {
+       margin: 7.5%;
+       margin-left: 10%;
+       padding: 20px;
+       background: #fff;
+       border-radius: 5px;
+       width: 80%;
+       height: 80%;
+       position: relative;
+       transition: all 500ms ease-in-out;
+   }
+   .popupevents .closeevents{
+       position: absolute;
+       top: 20px;
+       right: 30px;
+       transition: all 200ms ease-in-out;
+       font-size: 30px;
+       font-weight: bold;
+       text-decoration: none;
+       color: #333;
+   }
+   .popupevents .closeevents:hover {
+       color: #06D85F;
+   }
+   .popupevents .contentevents {
+       max-height: 100%;
+       overflow: auto;
+   }
+   </style>
+	<script src="js/modernizr.js"></script>
+	<link rel="icon" type="image/png" href="./images/logo.png">
+
+</head>
+
+<body id="top">
+
+
+   <header>
+
+   	<div class="row">
+
+   		<div class="logo">
+	         <a href="index.html"></a>
+	      </div>
+
+	   	<nav id="main-nav-wrap">
+				<ul class="main-navigation">
+					<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+					<li><a class="smoothscroll"  href="#about" title="">About Us</a></li>
+					<li><a class="smoothscroll"  href="#events" title="">Events</a></li>
+					<li><a class="smoothscroll"  href="#members" title="">Members</a></li>
+					<li><a class="smoothscroll"  href="#footer" title="">Contact Us</a></li>
+					<li class="highlight with-sep"><a href="solar.html" title="">OUR SOLAR SYSTEM - 3D Model</a></li>
+                    <!-- <li><button><a class="login"  href="login.html" title="">Login</a></button></li> -->
+
+				</ul>
+			</nav>
+
+			<a class="menu-toggle" href="#"><span>Menu</span></a>
+   		
+   	</div>   	
+   	
+   </header> 
+
+	
+   <section id="intro">
+
+   	<div class="shadow-overlay"></div>
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Welcome to the official page of</h5>
+	   			<h1>Astronomy & Space Club RGIPT</h1>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div>
+   
+   </section> 
+
+
+  
+   <section id="about">
+
+   	<div class="row section-intro">
+   		<div class="col-twelve with-bottom-line">
+
+   			<h5>About Us</h5>
+            <br/>
+            <h2 class="h01">Who Are We?</h2>
+            <br/>
+   			<p class="lead">
+                <strong>ASTRONOMY, a natural science, is the study of celestial objects and aboutes, the physics, chemistry, and evolution of such objects and aboutes, and more generally all phenomena that originate outside the atmosphere of Earth. So we at <strong>RGIPT, Amethi, UP</strong> made a club for the astronomy enthusiasts to quench their thirst for knowledge here only.<br/><br/>We are a bunch of people enthusiastic towards astronomy. Fascinated with the mysteries of the night sky and majestic views of telescope.<br/><br/>The RGIPT Astronomy Club was founded by Y10 Batch students : Rishabh Baid, Rajat Vyas, Samarth Mathur and Shasak Raina. The club aims to create awareness in the field of amateur astronomy by indulging in night-sky observations, talks and various competitions.
+            </strong></p>
+            
+            <br/>
+            <h2 class="h01">What We Do?</h2>
+            <br/>
+            <p class="lead">
+            <strong>“Astronomy compels us to look upwards and leads us from this world to another.” - Plato.<br/><br/>Astronomy is not limited to theoretical concepts but involves practical observation of what lies beyond our horizon. It questions the origin and existence of our universe. This keeps us driving and entices the desire to learn.<br/><br/>The club has successfully built an environment of healthy exchange of knowledge about astronomy and astrophysics. The dedicated team has made the college proud by winning various astronomical competitions held across the nation. We aim higher!</strong>
+            </p>
+            
+   		</div>   		
+   	</div>
+
+   </section> 
+
+
+
+	<section id="events">
+
+		<div class="row section-intro">
+   		<div class="col-twelve with-bottom-line">
+
+   			<h5>Events</h5><br/>
+   			<p class="lead">The Astronomy Club hosts many inter and intra college events alongside the Science & Technical, few of which are also associated with the RGIPT's Techfest <a href="http://www.urjotsav.com">URJOTSAV</a>.<br/><br/><strong>CLICK ON EACH EVENT FOR MORE INFO</strong></p>
+   		</div>   		
+   	</div>
+    
+   	<div class="row events-content">
+
+   		<div class="events-list block-1-3 block-s-1-2 block-tab-full group">
+            <div class="bgrid feature">
+
+			   	<span class="icon"><br/><a href="#popup3"><img src="./images/sambharlake.png" style="height:34%; width:34%;"/></a></span>
+
+	            <div class="service-content">	
+	            	<h3 class="h05"><a href="#popup4">Star Gazing</a></h3>
+
+		            <p>A Star Gazing Event at the Track & Fields.</p>
+	            </div>	               
+
+               </div>
+	      	<div class="bgrid feature">	
+
+	      		<span class="icon"><br/><a href="#popup1"><img src="./images/armageddon.png" style="height:30%; width:30%;"/></a></span>
+
+	            <div class="service-content">	
+
+	            	 <h3 class="h05"><a href="#popup1">CanSat</a></h3>
+
+		            <p>A Sattelite shaped like a can!
+	         		</p>
+	         		
+	         	</div> 	         	 
+
+				</div> 
+
+				<div class="bgrid feature">	
+
+					<span class="icon"><br/><a href="#popup2"><img src="./images/astrohunt.png" style="height:30%; width:30%;"/></a></span>
+
+	            <div class="service-content">	
+	            	<h3 class="h05"><a href="#popup2">Astronova</a></h3>
+
+		            <p>The monthly magazine of the Astronomy Club
+	         		</p>
+	            </div>	                          
+
+            </div>
+			   </div> 
+
+	      </div> 
+   		
+   	</div> 
+    
+    <div id="popup1" class="overlayevents">
+        <div class="popupevents"><div class="contentevents">
+            <div class=" col-six mob-full tab-full"><img src="./images/armageddon.png" style="height:30%; width:30%; position:relative; left:60%;"/></div><div class="col-six tab-full mob-full" style="color:#0f0f0f"><br/><p style="font-size:20px; font-family: raleway-heavy;">CANSAT</p>Venue : RGIPT, Amethi, UP<br/>Prototype video: <a href="https://drive.google.com/file/d/1hnY-W-CUVl_H55XoXu3X_Zi1bJL4wr3a/view?usp=sharing">Click here</a></div>
+            <a class="closeevents" href="#popup1.close()">&times;</a>
+            <div class="col-twelve mob-full tab-full" style="color:#000000;">
+                <br/><h3>Synopsis</h3>A CanSat is a simulation of a real satellite, integrated within the volume and shape of a soft drink can. The challenge for the students is to fit all the major subsystems found in a satellite, such as power, sensors and a communication system, into this minimal volume. The CanSat is then launched to an altitude of a few hundred metres by a rocket or dropped from a platform or captive balloon and its mission begins: to carry out a scientific experiment and achieve a safe landing.
+
+CanSats offer a unique opportunity for students to have a first practical experience of a real space project. They are responsible for all aspects: designing the CanSat, selecting its mission, integrating the components, testing, preparing for launch and then analysing the data.
+                
+                </ul>
+            </div></div>
+        </div>
+    </div> 
+    <div id="popup2" class="overlayevents">
+        <div class="popupevents"><div class="contentevents">
+            <div class=" col-six mob-full tab-full"><img src="./images/astrohunt.png" style="height:30%; width:30%; position:relative; left:60%;"/></div><div class="col-six tab-full mob-full" style="color:#0f0f0f"><br/><p style="font-size:20px; font-family: raleway-heavy;">ASTRONOVA</p>The monthly magazine of ASPAC RGIPT</div>
+            <a class="closeevents" href="#popup1.close()">&times;</a>
+            <div class="col-twelve mob-full tab-full" style="color:#000000;">
+                <br/><h3>Contribute</h3> You can contribute to our magazine by <a href="https://forms.gle/7rtogsXzgqAQh2mr7">clicking here.</a><br/>
+                <br/><h3>Past magazines</h3> <a href="https://heyzine.com/flip-book/59b0174d1e.html">October'23 Edition</a><br/><a href="https://heyzine.com/flip-book/67d03dcf1b.html">September'23 Edition</a>
+                </ul>
+            </div></div>
+        </div>
+    </div> 
+    <div id="popup3" class="overlayevents">
+        <div class="popupevents"><div class="contentevents">
+            <div class=" col-six mob-full tab-full"><img src="./images/sambharlake.png" style="height:30%; width:30%; position:relative; left:60%;"/></div><div class="col-six tab-full mob-full" style="color:#0f0f0f"><br/><p style="font-size:20px; font-family: raleway-heavy;">STAR GAZING</p>A Star Gazing Event at the Track & Fields</div>
+            <a class="closeevents" href="#popup1.close()">&times;</a>
+            <div class="col-twelve mob-full tab-full" style="color:#000000;">
+                <br/><h3>Gallery</h3> <a href="https://heyzine.com/flip-book/59b0174d1e.html">Click here</a><br/><sub>For more check our magazine section.</sub>
+                </ul>
+            </div></div>
+        </div>
+    </div> 
+
+    </section> 
+	
+
+   <section id="members">
+
+   	<div class="row section-intro">
+        <h5>MEMBERS</h5><br/>
+   		<div class="col-twelve">
+   			<h2>Astronomy Club has a team of 15+ students who passionately handle all the club activities.</h2><h2 class="h01"/>
+   		</div>   		
+   	</div>   	
+
+      <div class="row flex-container">
+    
+         <div id="member-slider" class="flexslider">
+
+            <ul class="slides">
+
+               <li>
+               	<div class="member-author">
+                    	<img src="images/susham.jpg" alt="Author image">
+                    	<div class="author-info">
+                    		Dr. Susham Biswas
+                    		<span class="position">Faculty Advisor</span>
+                    	</div>
+                  </div>
+
+                  <p></p>
+             	</li> 
+
+               <li> 
+
+               	<div class="member-author">
+                    	<img src="images/Ankur.gif" alt="Ankur Kumar">
+                    	<div class="author-info">
+                    		Ankur Kumar
+                    		<span>Coordinator</span>
+                    	</div>
+                  </div> 
+
+<p>Astronomy is all about exploring the unfathomable reaches of universe. It’s a continuous learning about where mankind progresses as the cosmos evolves. The mystery of our evolution and descent can be resolved to a great extent by what we learn and what we perceive. The sky’s the limit!</p>
+
+               </li> 
+        
+               <li>
+                   
+                   <div class="member-author">
+                           <div class="author-info">
+                               Y22 Members<br/><br/>
+                               <span>Abhijeet Jadhav</span>
+                               <span>Arnav Sao</span>
+                               <span>Swayanshu Rout</span>
+                               <span>Anmol Mayank</span>
+                               <span>Aditya Kumar</span>
+                               <span>Khushi Kalra</span>
+                               <span>Jagriti Priya</span>
+                               <span>Sanvi Shukla</span>
+                           </div>
+                           </div>
+                   
+               </li> 
+               <li>
+                   
+                   <div class="member-author">
+                           <div class="author-info">
+                               Y22 Members<br/><br/>
+                               <span>Lavanya Singh</span>
+                               <span>Ojasva Singh</span>
+                               <span>Aman Barte</span>
+                               <span>Aditya Singh</span>
+                               <span>Anmol Saini</span>
+                               <span>Chaitanya Gawade</span>                           </div>
+                           </div>
+                   
+               </li> 
+            
+            </ul> 
+
+         </div>     
+        
+      </div> 
+
+   </section> 
+
+   
+   <section id="footer">
+
+   	<div class="footer-main">
+
+   		<div class="row">  
+
+	      	<div class="col-six tab-full mob-full footer-info" style="text-align: left;">
+
+	            <div class=""></div>
+
+	            <p>Rajiv Gandhi Institute of Petroleum Technology<br>
+                Amethi, UP, India<br>
+		        	aspac@rgipt.ac.in <br/> +91-79919 02068
+		        	</p>
+
+		      </div> 
+
+	      	<div class="col-six tab-full mob-full social-links" style="text-align: right;">
+
+
+
+	      		<ul>
+                        <li><h4 style="color:#aaaaaa">Links</h4></li>
+						<li><a href="https://www.instagram.com/ASPAC_RGIPT/">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/school/science-technical-committee-rgipt/">LinkedIn</a></li>
+					</ul>
+	      	           	
+	      	</div> 
+
+	      </div> 
+
+   	</div> 
+    </section>
+   <footer>
+       <div class="footer-bottom">
+           <div class="row">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSex86tuRhFETtUPSSO9KZn_HeIHpC20OytBund14l5dtr3KAA/viewform?embedded=true" width="640" height="719" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+               <div class="col-twelve">
+                   <div class="copyright">
+                       <span>© Astronomy Club, RGIPT</span>
+                       <span>Designed by: Ankur Kumar</span>
+                   </div>
+                   <div id="go-top" style="display: block;">
+                       <a class="smoothscroll" title="Back to Top" href="#top">
+                           <i class="icon ion-android-arrow-up"></i>
+                       </a>
+                   </div>
+               </div>
+           </div>
+        </div>
+   </footer>
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <script src="js/jquery-1.11.3.min.js"></script>
+   <script src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+</html>
