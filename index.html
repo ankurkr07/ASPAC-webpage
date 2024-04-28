@@ -55,6 +55,50 @@
        max-height: 100%;
        overflow: auto;
    }
+   .contact-box {
+    background: rgba(173, 216, 230, 0.5); /* Light blue with transparency */
+    border: 1px solid rgba(135, 206, 250, 0.5); /* Soft blue border */
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-box:hover {
+    background: rgba(173, 216, 230, 0.7); /* Darker on hover */
+    border: 1px solid rgba(135, 206, 250, 0.7); /* Darker blue border */
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #000080; /* Navy blue text color */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-content span {
+    padding: 5px;
+}
+
+.contact-content span:first-child {
+    font-size: 18px;
+}
+
+.contact-content span:last-child {
+    font-size: 14px;
+}
+
+.contact-content:hover {
+    transform: scale(1.05);
+}
+
    </style>
 	<script src="js/modernizr.js"></script>
 	<link rel="icon" type="image/png" href="./images/logo.png">
@@ -80,6 +124,7 @@
 					<li><a class="smoothscroll"  href="#members" title="">Members</a></li>
 					<li><a class="smoothscroll"  href="#footer" title="">Contact Us</a></li>
 					<li class="highlight with-sep"><a href="solar.html" title="">OUR SOLAR SYSTEM - 3D Model</a></li>
+					<li class="highlight with-sep"><a href="http://localhost:3000/" title="">OUR BLOGS</a></li>
                     <!-- <li><button><a class="login"  href="login.html" title="">Login</a></button></li> -->
 
 				</ul>
@@ -93,7 +138,7 @@
 
 	
    <section id="intro">
-
+    
    	<div class="shadow-overlay"></div>
 
    	<div class="intro-content">
@@ -130,7 +175,7 @@
             <h2 class="h01">What We Do?</h2>
             <br/>
             <p class="lead">
-            <strong>“Astronomy compels us to look upwards and leads us from this world to another.” - Plato.<br/><br/>Astronomy is not limited to theoretical concepts but involves practical observation of what lies beyond our horizon. It questions the origin and existence of our universe. This keeps us driving and entices the desire to learn.<br/><br/>The club has successfully built an environment of healthy exchange of knowledge about astronomy and astrophysics. And we continue to grow above and beyond!</strong>
+            <strong>“Astronomy compels us to look upwards and leads us from this world to another.” - Plato.<br/><br/>Astronomy is not limited to theoretical concepts but involves practical observation of what lies beyond our horizon. It questions the origin and existence of our universe. This keeps us driving and entices the desire to learn.<br/><br/>The club has successfully built an environment of healthy exchange of knowledge about astronomy and astrophysics. The dedicated team has made the college proud by winning various astronomical competitions held across the nation. We aim higher!</strong>
             </p>
             
    		</div>   		
@@ -326,7 +371,6 @@ CanSats offer a unique opportunity for students to have a first practical experi
 	      	<div class="col-six tab-full mob-full footer-info" style="text-align: left;">
 
 	            <div class=""></div>
-
 	            <p>Rajiv Gandhi Institute of Petroleum Technology<br>
                 Amethi, UP, India<br>
 		        	aspac@rgipt.ac.in <br/> +91-79919 02068
@@ -351,9 +395,23 @@ CanSats offer a unique opportunity for students to have a first practical experi
    	</div> 
     </section>
    <footer>
+    <div class="contact-box">
+    <a href="contactus.html" class="contact-link">
+        <div class="contact-content">
+            <span>Have a question?</span>
+            <span>Click here to send us a message</span>
+        </div>
+    </a>
+</div>
+
+    <!-- Address: -->
+<!-- <img src="http://localhost:3000/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FHero.6d024a03.png&w=384&q=75" alt="astronaut" /> -->
+
        <div class="footer-bottom">
            <div class="row">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSex86tuRhFETtUPSSO9KZn_HeIHpC20OytBund14l5dtr3KAA/viewform?embedded=true" width="640" height="719" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.878828614334!2d81.50676417520098!3d26.26559577703875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399ba1580bf13c33%3A0x32df0c8e914ab52e!2sRajiv%20Gandhi%20Institute%20of%20Petroleum%20Technology!5e0!3m2!1sen!2sin!4v1713870274019!5m2!1sen!2sin" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Map showing Rajiv Gandhi Institute of Petroleum Technology"></iframe> -->
+
+            <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSex86tuRhFETtUPSSO9KZn_HeIHpC20OytBund14l5dtr3KAA/viewform?embedded=true" width="640" height="719" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
                <div class="col-twelve">
                    <div class="copyright">
                        <span>© Astronomy Club, RGIPT</span>
