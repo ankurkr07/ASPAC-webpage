@@ -1,5 +1,4 @@
-# Web Technology Course Project: Blog Website
-
+# Web Technology Course Project: ASPAC Website
 This is my project for the Web Technology course. It is a simple blog website built using Node.js, Express.js, and MongoDB.
 
 ## Installation
