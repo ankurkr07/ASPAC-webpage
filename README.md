@@ -1,6 +1,3 @@
-Certainly! Below is a sample `README.md` file that you can use for your web technology course project:
-
-```markdown
 # Web Technology Course Project: Blog Website
 
 This is my project for the Web Technology course. It is a simple blog website built using Node.js, Express.js, and MongoDB.
