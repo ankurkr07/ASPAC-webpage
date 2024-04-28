@@ -32,9 +32,4 @@ After running the project, you can access the website by opening your web browse
 
 Feel free to contribute to this project by submitting pull requests or reporting issues.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Feel free to modify it according to your project's specifics.
